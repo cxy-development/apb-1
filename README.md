@@ -18,6 +18,7 @@ Connect your MIDI cable's pins as specified in the included schematics file (`ap
 - cable's pin 4 to +5V pin
 - cable's pin 2 to GND
 
+Lastly, make sure the baud rate of the Serial communication is set to 31250.
 After setting it up as said above, the APB 1 is ready to be connected to any MIDI interface and used in any software.
 
 ### Using Serial communication
@@ -27,4 +28,5 @@ To use Serial communication, follow these steps:
 - Download Hairless MIDI (https://projectgus.github.io/hairless-midiserial/?source=post_page---------------------------)
 - Run Hairless MIDI and select the used Arduino in the Serial port dropdown and the just created MIDI virtual port in the MIDI Out dropdown
 
+Lastly, make sure the baud rate of the Serial communication is set to 115200. Double-check the Hairless MIDI Serial communication baud rate settings too.
 After setting it up as said above, the ABP 1 is ready to be used in any software.
