@@ -17,7 +17,14 @@ Connect your MIDI cable's pins as specified in the included schematics file (`ap
 - cable's pin 5 to D1/TX pin
 - cable's pin 4 to +5V pin
 - cable's pin 2 to GND
-After setting it up as said above, the APB 1 is ready to be connected to any MIDI interface.
+
+After setting it up as said above, the APB 1 is ready to be connected to any MIDI interface and used in any software.
 
 ### Using Serial communication
-To use Serial communication two softwares are needed to be installed on the used computer.
+To use Serial communication, follow these steps:
+- Install loopMIDI (https://www.tobias-erichsen.de/software/loopmidi.html)
+- Create a virtual MIDI port using loopMIDI
+- Download Hairless MIDI (https://projectgus.github.io/hairless-midiserial/?source=post_page---------------------------)
+- Run Hairless MIDI and select the used Arduino in the Serial port dropdown and the just created MIDI virtual port in the MIDI Out dropdown
+
+After setting it up as said above, the ABP 1 is ready to be used in any software.
